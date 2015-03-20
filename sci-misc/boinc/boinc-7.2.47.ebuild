@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/sci-misc/boinc/boinc-7.2.0-r1.ebuild,v 1.1 2013/12/31 13:05:51 pacho Exp $
 
@@ -12,7 +12,7 @@ inherit autotools-utils flag-o-matic eutils wxwidgets user systemd
 
 DESCRIPTION="The Berkeley Open Infrastructure for Network Computing"
 HOMEPAGE="http://boinc.ssl.berkeley.edu/"
-SRC_URI="http://dev.gentoo.org/~jlec/distfiles/${P}.tar.xz"
+SRC_URI="http://fuseyism.com/distfiles/${P}.tar.xz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

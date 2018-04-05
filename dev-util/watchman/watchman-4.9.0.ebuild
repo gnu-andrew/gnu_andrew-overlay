@@ -23,7 +23,7 @@ KEYWORDS="~amd64"
 IUSE="pcre python"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
-RDEPEND="dev-libs/openssl
+RDEPEND="dev-libs/openssl:0
 	pcre? ( dev-libs/libpcre )
 	python? ( ${PYTHON_DEPS} )"
 DEPEND="${RDEPEND} python? ( dev-python/setuptools[${PYTHON_USEDEP}] )"

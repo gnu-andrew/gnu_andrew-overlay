@@ -1,3 +1,6 @@
+  05 Apr 2018; Andrew John Hughes <gnu_andrew@member.fsf.org> metadata.xml:
+  dev-util/watchman: Fix spacing in metadata.xml
+
   05 Apr 2018; Andrew John Hughes <gnu_andrew@member.fsf.org>
   watchman-4.9.0.ebuild:
   dev-util/watchman: Add slot to OpenSSL dependency.

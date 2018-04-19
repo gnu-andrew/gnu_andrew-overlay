@@ -1,7 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=2
+EAPI=6
 inherit toolchain-funcs
 
 MY_P=${P//./_}
@@ -22,6 +22,7 @@ DEPEND="app-arch/unzip
 S=${WORKDIR}
 
 src_prepare() {
+	default
 	sed -i \
 		-e 's:CFLAGS= -Wall -O2:CFLAGS+= -Wall:' \
 		-e 's:$(CC) -o:$(CC) $(LDFLAGS) -o:' \

@@ -1,0 +1,12 @@
+--- a/src/Makefile	2026-06-20 02:23:52.824064962 +0100
++++ b/src/Makefile	2026-06-20 02:30:49.067876705 +0100
+@@ -29,6 +29,9 @@
+ 
+ installdirs:
+ 	/bin/sh ../mkinstalldirs $(BINDIR)
++	/bin/sh ../mkinstalldirs $(DESKTOPDIR1)
++	/bin/sh ../mkinstalldirs $(DESKTOPDIR2)
++	/bin/sh ../mkinstalldirs $(PIXMAPDIR)
+ 
+ install: xzgv installdirs
+ 	install xzgv $(BINDIR)

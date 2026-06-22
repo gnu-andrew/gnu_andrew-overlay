@@ -1,0 +1,11 @@
+--- a/config.mk	2026-06-20 02:02:46.037428798 +0100
++++ b/config.mk	2026-06-20 02:05:00.798338288 +0100
+@@ -7,7 +7,7 @@
+ # This is likely to be what you'll want for most systems:
+ #
+ CC=gcc
+-CFLAGS=-Wall
++CFLAGS=-Wall -std=c90
+ 
+ # Set the awk interpreter to use for a script used while compiling.
+ # (This should be a `new' awk, such as gawk or mawk.)
